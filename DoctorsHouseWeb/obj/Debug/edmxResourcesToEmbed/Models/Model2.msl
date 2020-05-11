@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DoctorsHouseModelStoreContainer" CdmEntityContainer="DoctorsHouseEntities2">
+    <EntitySetMapping Name="Appointments">
+      <EntityTypeMapping TypeName="DoctorsHouseModel.Appointment">
+        <MappingFragment StoreEntitySet="Appointments">
+          <ScalarProperty Name="ap_id" ColumnName="ap_id" />
+          <ScalarProperty Name="sch_id" ColumnName="sch_id" />
+          <ScalarProperty Name="ap_desc" ColumnName="ap_desc" />
+          <ScalarProperty Name="ap_type" ColumnName="ap_type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="DoctorsHouseModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="dept_name" ColumnName="dept_name" />
+          <ScalarProperty Name="dept_desc" ColumnName="dept_desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Doctors">
+      <EntityTypeMapping TypeName="DoctorsHouseModel.Doctor">
+        <MappingFragment StoreEntitySet="Doctor">
+          <ScalarProperty Name="doctor_id" ColumnName="doctor_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="doctor_name" ColumnName="doctor_name" />
+          <ScalarProperty Name="doctor_gender" ColumnName="doctor_gender" />
+          <ScalarProperty Name="doctor_mobile" ColumnName="doctor_mobile" />
+          <ScalarProperty Name="bmdc_regno" ColumnName="bmdc_regno" />
+          <ScalarProperty Name="doctor_email" ColumnName="doctor_email" />
+          <ScalarProperty Name="doctor_address" ColumnName="doctor_address" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="DoctorsHouseModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="login_id" ColumnName="login_id" />
+          <ScalarProperty Name="login_username" ColumnName="login_username" />
+          <ScalarProperty Name="login_password" ColumnName="login_password" />
+          <ScalarProperty Name="login_type" ColumnName="login_type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Online_Payments">
+      <EntityTypeMapping TypeName="DoctorsHouseModel.Online_Payments">
+        <MappingFragment StoreEntitySet="Online_Payments">
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+          <ScalarProperty Name="trans_id" ColumnName="trans_id" />
+          <ScalarProperty Name="payment_date" ColumnName="payment_date" />
+          <ScalarProperty Name="payment_time" ColumnName="payment_time" />
+          <ScalarProperty Name="ap_id" ColumnName="ap_id" />
+          <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="DoctorsHouseModel.Patient">
+        <MappingFragment StoreEntitySet="Patient">
+          <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+          <ScalarProperty Name="patient_name" ColumnName="patient_name" />
+          <ScalarProperty Name="patient_gender" ColumnName="patient_gender" />
+          <ScalarProperty Name="patient_mobile" ColumnName="patient_mobile" />
+          <ScalarProperty Name="patient_email" ColumnName="patient_email" />
+          <ScalarProperty Name="patient_address" ColumnName="patient_address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedules">
+      <EntityTypeMapping TypeName="DoctorsHouseModel.Schedule">
+        <MappingFragment StoreEntitySet="Schedules">
+          <ScalarProperty Name="sch_id" ColumnName="sch_id" />
+          <ScalarProperty Name="doctor_id" ColumnName="doctor_id" />
+          <ScalarProperty Name="sch_desc" ColumnName="sch_desc" />
+          <ScalarProperty Name="sch_date" ColumnName="sch_date" />
+          <ScalarProperty Name="sch_time" ColumnName="sch_time" />
+          <ScalarProperty Name="sch_type" ColumnName="sch_type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

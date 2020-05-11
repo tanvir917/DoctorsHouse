@@ -1,0 +1,96 @@
+﻿@model IEnumerable<DoctorsHouseWeb.Models.Doctor>
+@{
+
+    ViewBag.Title = "Doctors";
+}
+<br><br><br><br><br><br>
+<section class="search-sec section-padding">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Enter  City">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input type="text" class="form-control search-slt" placeholder="Enter Specialities">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Select Areas</option>
+                                <option>Dhanmondi</option>
+                                <option>Rampura</option>
+                                <option>Tejgaon</option>
+                                <option>Uttara</option>
+                                <option>Badda</option>
+                                <option>Shahbag</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <button type="button" class="btn btn-danger wrn-btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                <p class="search_page_doctor_name grey_font_color" style="font-size: 18px;">Search By Area</p>
+
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12 p-0">
+
+                @foreach (var item in Model)
+                {
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 doctor_result_div">
+                            <div class="row">
+                                <div class="col-lg-2 col-sm-2 doctor_search_left_block">
+                                    <!-----doc pic block-------->
+                                    <img class="img-circle search_page_doctor_image pull-right" src="https://res.cloudinary.com/doctorola/image/upload/v1423549010/doctor_yis5gg.png" alt="profile pic"> <!--<img class="img-circle search_page_doctor_image pull-right" src="https://doctorola.com/assets_new/images/male_doctor_avater.jpg" alt="profile pic" />-->
+                                </div>
+                                <div class="col-lg-4 col-sm-4 doctor_search_mid_block">
+                                    <!-----doc mid block-------->
+                                    <p class="search_page_doctor_name grey_font_color" style="font-size: 22px;">@Html.DisplayFor(modelItem => item.doctor_name)</p><p class="search_page_doctor_des grey_font_color small_font">MBBS (DMC), BCS (Health), MD (Dermatology)</p><p class="search_page_doctor_sp grey_font_color small_font">Assistant Professor, Dept. of Dermatology, Sir Salimullah Medical College &amp; Hospital</p>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 doctor_search_right_block">
+                                    <!-----doc right block-------->
+                                    <div class="row right_block_row">
+                                        <div class="col-lg-9 col-sm-9">
+                                            <p class="grey_font_color small_font">
+                                                <i class="fa fa-map-marker" aria-hidden="true">
+                                                </i>&nbsp;&nbsp; Chamber
+                                            </p><p class="small_font grey_font_color">@Html.DisplayFor(modelItem => item.doctor_address)</p><p class="small_font grey_font_color">
+                                                <i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp; Fees
+                                            </p>
+                                            <p class="small_font grey_font_color">New appointment: Not given</p>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 profile_btn_div">
+                                            @Html.ActionLink("Visit Profile", "DoctorProfile", new { id = @Html.DisplayFor(modelItem => item.doctor_id) })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+
+                }
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

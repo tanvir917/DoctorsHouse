@@ -1,0 +1,287 @@
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csprojAssemblyReference.cache
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csproj.CoreCompileInputs.cache
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.dll.config
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.pdb
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.exe
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.exe.config
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.rsp
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.exe
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.exe.config
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.rsp
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.AppContext.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Console.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Compression.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Pipes.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.AccessControl.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Claims.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Principal.Windows.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.ValueTuple.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XPath.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.exe
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.exe.config
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.rsp
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\VBCSCompiler.exe
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Antlr3.Runtime.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.SqlServer.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Newtonsoft.Json.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Owin.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Helpers.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Mvc.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Optimization.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Razor.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Deployment.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Razor.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\WebGrease.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.SqlServer.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Helpers.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Mvc.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Optimization.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Razor.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Deployment.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Razor.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Newtonsoft.Json.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Antlr3.Runtime.pdb
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csproj.CopyComplete
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.dll
+E:\CSE Dept\ISDP\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.pdb
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.dll.config
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.pdb
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.exe
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.exe.config
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.rsp
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.exe
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.exe.config
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.rsp
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.AppContext.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Console.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Compression.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Pipes.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.AccessControl.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Claims.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Principal.Windows.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.ValueTuple.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XPath.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.exe
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.exe.config
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.rsp
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\VBCSCompiler.exe
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Antlr3.Runtime.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.SqlServer.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Core.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.Cookies.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.OAuth.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Newtonsoft.Json.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Owin.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Security.Claims.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Helpers.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Mvc.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Optimization.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Razor.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Deployment.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Razor.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\WebGrease.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.SqlServer.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Core.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.Cookies.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.OAuth.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Helpers.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Mvc.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Optimization.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Razor.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Deployment.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Razor.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Newtonsoft.Json.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Antlr3.Runtime.pdb
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csprojAssemblyReference.cache
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csproj.CoreCompileInputs.cache
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csproj.CopyComplete
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.dll
+E:\3.2\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.pdb
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.dll.config
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\DoctorsHouseWeb.pdb
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.exe
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.exe.config
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csc.rsp
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.exe
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.exe.config
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\csi.rsp
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.AppContext.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Console.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Compression.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.IO.Pipes.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.AccessControl.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Claims.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Security.Principal.Windows.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.ValueTuple.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XPath.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.exe
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.exe.config
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\vbc.rsp
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\VBCSCompiler.exe
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Antlr3.Runtime.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.SqlServer.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Newtonsoft.Json.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Owin.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Security.Claims.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Helpers.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Mvc.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Optimization.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Razor.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Deployment.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Razor.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\WebGrease.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\EntityFramework.SqlServer.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Helpers.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Mvc.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Optimization.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.Razor.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Deployment.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\System.Web.WebPages.Razor.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Newtonsoft.Json.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Antlr3.Runtime.pdb
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csprojAssemblyReference.cache
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csproj.CoreCompileInputs.cache
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.csproj.CopyComplete
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.dll
+E:\CSE Dept\project\DoctorsHouseWeb\DoctorsHouseWeb\DoctorsHouseWeb\obj\Debug\DoctorsHouseWeb.pdb

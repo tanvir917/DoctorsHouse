@@ -1,0 +1,147 @@
+﻿@model IEnumerable<DoctorsHouseWeb.Models.Doctor>
+
+@{
+    ViewBag.Title = "DoctorProfile";
+}
+
+
+
+<br><br><br><br><br>
+
+<h2>DoctorProfile</h2>
+
+<section class="section-padding">
+    <div class="container-fluid profile_big_banner text-center">
+
+        @foreach (var item in Model)
+        {
+            <img src="https://res.cloudinary.com/doctorola/image/upload/v1423549010/doctor_yis5gg.png" class="img-circle profile_page_doctor_image" alt="profile pic">
+            <p class="profile_page_doctor_name">@Html.DisplayFor(modeItem => item.doctor_name)</p>
+            <p class="profile_page_doctor_designation">Consultant, Dept. of Dermatology, Shaheed Monsur Ali Medical College</p>
+            <p class="profile_page_doctor_sp">@Html.DisplayFor(modeItem => item.Department)</p>
+        }
+
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="profile_page_info_block text-center">
+                    <p class="block_heading custom_para">
+                        <i class="fa fa-stethoscope" aria-hidden="true"></i> Specialist in
+                    </p>
+                    <p class="block_heading custom_para">
+                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                    </p>
+                    <p class="custom_para">Dermatology (Skin, Venereology, Sexual, Hair, Allergy)</p>
+                    <hr class="custom_para custom_hr_profile"><p class="profile_degree_portion">
+                        MBBS, DDV.
+                    </p><hr class="custom_para custom_hr_profile"><p class="profile_description_portion">Skin, sex, Allergy &amp; Immunology Practitioner.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                @if (Session["p_id"] == null)
+                {
+                <div>
+                    <p>Take Appointment</p>
+                    @using (Html.BeginForm("DoctorProfile", "Home", FormMethod.Post)) {
+                        
+                    }
+                </div>
+                }
+                </div>
+
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+@*<div>
+        <h4>Doctor</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.doctor_id)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.doctor_id)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.doctor_name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.doctor_name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.doctor_gender)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.doctor_gender)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.doctor_mobile)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.doctor_mobile)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.bmdc_regno)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.bmdc_regno)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.doctor_email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.doctor_email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.doctor_address)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.doctor_address)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.dept_id)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.dept_id)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>*@

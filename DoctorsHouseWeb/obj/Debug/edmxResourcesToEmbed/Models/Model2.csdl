@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DoctorsHouseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Appointment">
+    <Key>
+      <PropertyRef Name="ap_id" />
+    </Key>
+    <Property Name="ap_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sch_id" Type="Int32" Nullable="false" />
+    <Property Name="ap_desc" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ap_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Schedule" Relationship="Self.FK__Appointme__sch_i__797309D9" FromRole="Appointments" ToRole="Schedules" />
+    <NavigationProperty Name="Online_Payments" Relationship="Self.FK__Online_Pa__ap_id__7C4F7684" FromRole="Appointments" ToRole="Online_Payments" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="dept_id" />
+    </Key>
+    <Property Name="dept_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dept_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dept_desc" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Doctors" Relationship="Self.FK__Doctor__dept_id__01142BA1" FromRole="Department" ToRole="Doctor" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="doctor_id" />
+    </Key>
+    <Property Name="doctor_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="doctor_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="doctor_gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="doctor_mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="bmdc_regno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="doctor_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="doctor_address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dept_id" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Doctor__dept_id__01142BA1" FromRole="Doctor" ToRole="Department" />
+    <NavigationProperty Name="Schedules" Relationship="Self.FK__Schedules__docto__76969D2E" FromRole="Doctor" ToRole="Schedules" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="login_id" />
+    </Key>
+    <Property Name="login_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="login_username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="login_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="login_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Online_Payments">
+    <Key>
+      <PropertyRef Name="payment_id" />
+    </Key>
+    <Property Name="payment_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="trans_id" Type="Int32" Nullable="false" />
+    <Property Name="payment_date" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="payment_time" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ap_id" Type="Int32" Nullable="false" />
+    <Property Name="patient_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Appointment" Relationship="Self.FK__Online_Pa__ap_id__7C4F7684" FromRole="Online_Payments" ToRole="Appointments" />
+    <NavigationProperty Name="Patient" Relationship="Self.FK__Online_Pa__patie__7D439ABD" FromRole="Online_Payments" ToRole="Patient" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="patient_id" />
+    </Key>
+    <Property Name="patient_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="patient_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="patient_gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="patient_mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="patient_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="patient_address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Online_Payments" Relationship="Self.FK__Online_Pa__patie__7D439ABD" FromRole="Patient" ToRole="Online_Payments" />
+  </EntityType>
+  <EntityType Name="Schedule">
+    <Key>
+      <PropertyRef Name="sch_id" />
+    </Key>
+    <Property Name="sch_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="doctor_id" Type="Int32" Nullable="false" />
+    <Property Name="sch_desc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sch_date" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sch_time" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sch_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Appointments" Relationship="Self.FK__Appointme__sch_i__797309D9" FromRole="Schedules" ToRole="Appointments" />
+    <NavigationProperty Name="Doctor" Relationship="Self.FK__Schedules__docto__76969D2E" FromRole="Schedules" ToRole="Doctor" />
+  </EntityType>
+  <Association Name="FK__Appointme__sch_i__797309D9">
+    <End Role="Schedules" Type="Self.Schedule" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Schedules">
+        <PropertyRef Name="sch_id" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="sch_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Online_Pa__ap_id__7C4F7684">
+    <End Role="Appointments" Type="Self.Appointment" Multiplicity="1" />
+    <End Role="Online_Payments" Type="Self.Online_Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Appointments">
+        <PropertyRef Name="ap_id" />
+      </Principal>
+      <Dependent Role="Online_Payments">
+        <PropertyRef Name="ap_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Doctor__dept_id__01142BA1">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="dept_id" />
+      </Principal>
+      <Dependent Role="Doctor">
+        <PropertyRef Name="dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Schedules__docto__76969D2E">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+    <End Role="Schedules" Type="Self.Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="doctor_id" />
+      </Principal>
+      <Dependent Role="Schedules">
+        <PropertyRef Name="doctor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Online_Pa__patie__7D439ABD">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="Online_Payments" Type="Self.Online_Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="patient_id" />
+      </Principal>
+      <Dependent Role="Online_Payments">
+        <PropertyRef Name="patient_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DoctorsHouseEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Appointments" EntityType="Self.Appointment" />
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Doctors" EntityType="Self.Doctor" />
+    <EntitySet Name="Logins" EntityType="Self.Login" />
+    <EntitySet Name="Online_Payments" EntityType="Self.Online_Payments" />
+    <EntitySet Name="Patients" EntityType="Self.Patient" />
+    <EntitySet Name="Schedules" EntityType="Self.Schedule" />
+    <AssociationSet Name="FK__Appointme__sch_i__797309D9" Association="Self.FK__Appointme__sch_i__797309D9">
+      <End Role="Schedules" EntitySet="Schedules" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Online_Pa__ap_id__7C4F7684" Association="Self.FK__Online_Pa__ap_id__7C4F7684">
+      <End Role="Appointments" EntitySet="Appointments" />
+      <End Role="Online_Payments" EntitySet="Online_Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Doctor__dept_id__01142BA1" Association="Self.FK__Doctor__dept_id__01142BA1">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Doctor" EntitySet="Doctors" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Schedules__docto__76969D2E" Association="Self.FK__Schedules__docto__76969D2E">
+      <End Role="Doctor" EntitySet="Doctors" />
+      <End Role="Schedules" EntitySet="Schedules" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Online_Pa__patie__7D439ABD" Association="Self.FK__Online_Pa__patie__7D439ABD">
+      <End Role="Patient" EntitySet="Patients" />
+      <End Role="Online_Payments" EntitySet="Online_Payments" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

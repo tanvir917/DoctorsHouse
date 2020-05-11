@@ -1,0 +1,40 @@
+﻿@model DoctorsHouseWeb.Models.Login
+@{
+   
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DoctorLogin</title>
+</head>
+<body>
+    <br><br><br><br><br>
+    <div>
+        @using (Html.BeginForm("DoctorLogin", "Home", FormMethod.Post))
+        {
+            <!--Body-->
+            <div class="modal-body mb-1">
+                <div class="md-form form-sm mb-5">
+                    <i class="fa fa-envelope prefix fa"></i>
+                    @*<input type="email" id="modalLRInput10" class="form-control form-control-sm validate">*@
+                    @Html.TextBoxFor(x => x.login_username, new { @class = "form-control form-control-sm validate", @id = "modalLRInput10" })
+                    <label data-error="wrong" data-success="right" for="modalLRInput10">Your username</label>
+                </div>
+
+                <div class="md-form form-sm mb-4">
+                    <i class="fa fa-lock prefix"></i>
+                    @*<input type="password" id="modalLRInput11" class="form-control form-control-sm validate">*@
+                    @Html.PasswordFor(x => x.login_password, new { @class = "form-control form-control-sm validate", @id = "modalLRInput11" })
+                    <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+                </div>
+                <div class="text-center mt-2">
+                    <button class="btn btn-info">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                </div>
+
+            </div>
+        }
+    </body>
+</html>

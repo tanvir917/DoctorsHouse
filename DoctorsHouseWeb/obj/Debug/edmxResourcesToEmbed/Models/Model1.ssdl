@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DoctorsHouseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="admin_id" />
+    </Key>
+    <Property Name="admin_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="admin_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="admin_mobile" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="admin_email" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Appointments">
+    <Key>
+      <PropertyRef Name="ap_id" />
+    </Key>
+    <Property Name="ap_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sch_id" Type="int" Nullable="false" />
+    <Property Name="ap_desc" Type="varchar" MaxLength="100" />
+    <Property Name="ap_type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="dept_id" />
+    </Key>
+    <Property Name="dept_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dept_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dept_desc" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Doctor">
+    <Key>
+      <PropertyRef Name="doctor_id" />
+    </Key>
+    <Property Name="doctor_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="doctor_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="doctor_gender" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="doctor_mobile" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="bmdc_regno" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="doctor_email" Type="varchar" MaxLength="50" />
+    <Property Name="doctor_address" Type="varchar" MaxLength="50" />
+    <Property Name="dept_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Fees">
+    <Key>
+      <PropertyRef Name="fee_id" />
+    </Key>
+    <Property Name="fee_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fee_amount" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fee_type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="login_id" />
+    </Key>
+    <Property Name="login_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login_username" Type="varchar" MaxLength="50" />
+    <Property Name="login_password" Type="varchar" MaxLength="50" />
+    <Property Name="login_type" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Online_Payments">
+    <Key>
+      <PropertyRef Name="payment_id" />
+    </Key>
+    <Property Name="payment_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trans_id" Type="int" Nullable="false" />
+    <Property Name="payment_date" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="payment_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ap_id" Type="int" Nullable="false" />
+    <Property Name="patient_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="patient_id" />
+    </Key>
+    <Property Name="patient_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="patient_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="patient_gender" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="patient_mobile" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="patient_email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="patient_address" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Reviews">
+    <Key>
+      <PropertyRef Name="review_id" />
+    </Key>
+    <Property Name="review_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="review_stars" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="review_date" Type="varchar" MaxLength="50" />
+    <Property Name="review_text" Type="varchar" MaxLength="500" />
+    <Property Name="patient_id" Type="int" Nullable="false" />
+    <Property Name="doctor_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Schedules">
+    <Key>
+      <PropertyRef Name="sch_id" />
+    </Key>
+    <Property Name="sch_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="doctor_id" Type="int" Nullable="false" />
+    <Property Name="sch_desc" Type="varchar" MaxLength="50" />
+    <Property Name="sch_date" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="sch_time" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="sch_type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Appointme__sch_i__5EBF139D">
+    <End Role="Schedules" Type="Self.Schedules" Multiplicity="1" />
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Schedules">
+        <PropertyRef Name="sch_id" />
+      </Principal>
+      <Dependent Role="Appointments">
+        <PropertyRef Name="sch_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Doctor__dept_id__656C112C">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="dept_id" />
+      </Principal>
+      <Dependent Role="Doctor">
+        <PropertyRef Name="dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Online_Pa__ap_id__619B8048">
+    <End Role="Appointments" Type="Self.Appointments" Multiplicity="1" />
+    <End Role="Online_Payments" Type="Self.Online_Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Appointments">
+        <PropertyRef Name="ap_id" />
+      </Principal>
+      <Dependent Role="Online_Payments">
+        <PropertyRef Name="ap_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Online_Pa__patie__628FA481">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="Online_Payments" Type="Self.Online_Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="patient_id" />
+      </Principal>
+      <Dependent Role="Online_Payments">
+        <PropertyRef Name="patient_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reviews__doctor___5535A963">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+    <End Role="Reviews" Type="Self.Reviews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="doctor_id" />
+      </Principal>
+      <Dependent Role="Reviews">
+        <PropertyRef Name="doctor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reviews__patient__5441852A">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="Reviews" Type="Self.Reviews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="patient_id" />
+      </Principal>
+      <Dependent Role="Reviews">
+        <PropertyRef Name="patient_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Schedules__docto__5BE2A6F2">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
+    <End Role="Schedules" Type="Self.Schedules" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doctor">
+        <PropertyRef Name="doctor_id" />
+      </Principal>
+      <Dependent Role="Schedules">
+        <PropertyRef Name="doctor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DoctorsHouseModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Appointments" EntityType="Self.Appointments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Doctor" EntityType="Self.Doctor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Fees" EntityType="Self.Fees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Login" EntityType="Self.Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Online_Payments" EntityType="Self.Online_Payments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Patient" EntityType="Self.Patient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reviews" EntityType="Self.Reviews" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Schedules" EntityType="Self.Schedules" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Appointme__sch_i__5EBF139D" Association="Self.FK__Appointme__sch_i__5EBF139D">
+      <End Role="Schedules" EntitySet="Schedules" />
+      <End Role="Appointments" EntitySet="Appointments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Doctor__dept_id__656C112C" Association="Self.FK__Doctor__dept_id__656C112C">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Doctor" EntitySet="Doctor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Online_Pa__ap_id__619B8048" Association="Self.FK__Online_Pa__ap_id__619B8048">
+      <End Role="Appointments" EntitySet="Appointments" />
+      <End Role="Online_Payments" EntitySet="Online_Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Online_Pa__patie__628FA481" Association="Self.FK__Online_Pa__patie__628FA481">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="Online_Payments" EntitySet="Online_Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reviews__doctor___5535A963" Association="Self.FK__Reviews__doctor___5535A963">
+      <End Role="Doctor" EntitySet="Doctor" />
+      <End Role="Reviews" EntitySet="Reviews" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reviews__patient__5441852A" Association="Self.FK__Reviews__patient__5441852A">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="Reviews" EntitySet="Reviews" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Schedules__docto__5BE2A6F2" Association="Self.FK__Schedules__docto__5BE2A6F2">
+      <End Role="Doctor" EntitySet="Doctor" />
+      <End Role="Schedules" EntitySet="Schedules" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
